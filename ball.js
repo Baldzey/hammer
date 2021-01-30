@@ -5,7 +5,7 @@ class Ball {
           'friction':5.0,
           'density':0.5
       }
-      this.body = Bodies.circle(x, y, width, height, options);
+      this.body = Bodies.ellipse(x, y, width, height, options);
       this.width = width;
       this.height = height;
       
